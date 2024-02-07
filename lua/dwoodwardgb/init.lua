@@ -25,9 +25,11 @@ vim.opt.signcolumn = 'yes'
 vim.opt.termguicolors = true
 
 vim.opt.syntax = 'on'
+vim.g.everforest_background = "hard"
 --vim.cmd [[set background=dark]]
-vim.cmd [[colorscheme iceberg]]
+vim.cmd [[colorscheme alabaster]]
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 
 vim.wo.fillchars='eob: '
 

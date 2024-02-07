@@ -17,13 +17,6 @@ return require('packer').startup(function(use)
 
   use {'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'}};
 
-  use 'Mofiqul/vscode.nvim';
-  use 'lourenci/github-colors';
-  use 'chiendo97/intellij.vim';
-  use 'Mofiqul/adwaita.nvim';
-  use 'p00f/alabaster.nvim';
-  use 'lunacookies/vim-colors-xcode';
-
   use {
     'VonHeikemen/lsp-zero.nvim',
     branch = 'v2.x',
@@ -46,13 +39,22 @@ return require('packer').startup(function(use)
   };
 
   use 'tpope/vim-fugitive';
-  use { "catppuccin/nvim", as = "catppuccin" };
   use 'airblade/vim-gitgutter';
-  use 'rebelot/kanagawa.nvim';
   use 'rose-pine/neovim';
   use 'cocopon/iceberg.vim';
-  use 'kristijanhusak/vim-hybrid-material';
-  use 'ntbbloodbath/sweetie.nvim';
   use 'nikolvs/vim-sunbather';
+  use 'tomasr/molokai';
+  use 'p00f/alabaster.nvim';
+  use 'miikanissi/modus-themes.nvim';
+  use 'savq/melange-nvim';
+  use 'Mofiqul/vscode.nvim';
+  use 'rmehri01/onenord.nvim';
+  use 'josebalius/vim-light-chromeclipse';
+  use 'ronisbr/nano-theme.nvim';
+  use 'liuchengxu/space-vim-theme';
+  use 'chiendo97/intellij.vim';
+  use 'sainnhe/everforest';
+  use {'mcchrish/zenbones.nvim', requires = "rktjmp/lush.nvim" };
+
 end);
 

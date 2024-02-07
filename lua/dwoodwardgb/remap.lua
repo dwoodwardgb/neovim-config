@@ -5,5 +5,9 @@ vim.keymap.set("c", "<Down>", "<C-n>")
 vim.keymap.set("n", "<leader>[", vim.cmd.tabprev)
 vim.keymap.set("n", "<leader>]", vim.cmd.tabnext)
 
--- leader-c for "clean" up code
-vim.keymap.set("n", "<leader>c", vim.lsp.buf.format)
+-- leader-p for prettier
+--vim.keymap.set("n", "<leader>p", "<Plug>(prettier-format)")
+
+--tnoremap <Esc> <C-\><C-n>
+--vim.keymap.set("t", "<Esc>", "<C-\\><C-n>")
+
